@@ -1,4 +1,4 @@
-const boardSize = 4;
+const boardSize = 3;
 let board = [];
 let gameActive = false;
 
@@ -151,4 +151,5 @@ gameBoard.addEventListener("touchend", e => {
 /* Buttons */
 startBtn.addEventListener("click", initBoard);
 restartBtn.addEventListener("click", initBoard);
+
 

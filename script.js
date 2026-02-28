@@ -3,17 +3,17 @@ let board = [];
 let gameActive = false;
 
 const imageMap = {
-  2: "assets/2.png",
-  4: "assets/4.png",
-  8: "assets/8.png",
-  16: "assets/16.png",
-  32: "assets/32.png",
-  64: "assets/64.png",
-  128: "assets/128.png",
-  256: "assets/256.png",
-  512: "assets/512.png",
-  1024: "assets/1024.png",
-  2048: "assets/2048.png",
+  2: "2.png",
+  4: "4.png",
+  8: "8.png",
+  16: "16.png",
+  32: "32.png",
+  64: "64.png",
+  128: "128.png",
+  256: "256.png",
+  512: "512.png",
+  1024: "1024.png",
+  2048: "2048.png",
 };
 
 const gameBoard = document.getElementById("gameBoard");
@@ -151,3 +151,4 @@ gameBoard.addEventListener("touchend", e => {
 /* Buttons */
 startBtn.addEventListener("click", initBoard);
 restartBtn.addEventListener("click", initBoard);
+
